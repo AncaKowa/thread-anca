@@ -2,7 +2,7 @@
   display: inline-flex;
   width: 60px;
   height: 60px;
-  border-color: $brand-primary;
+  background-color: $brand-primary;
   color: $white;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,8 @@
     font-size: 24px;
     line-height: 26px;
   }
+
   &-secondary {
-    border-color: $brand-secondary;
+    background-color: $brand-secondary;
   }
 }
